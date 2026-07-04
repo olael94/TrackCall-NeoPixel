@@ -30,6 +30,10 @@ Inputs are debounced with a 50ms settle read, and the main loop runs on a 250ms 
 
 ## Hardware
 
+### Pimoroni Tiny 2040 Pinout
+
+![Tiny 2040 Pinout](./Tiny2040-Pinout.png)
+
 Built and wired against the schematic below.
 
 ![My Schematic](./TrackCall-Neopixel.png)
