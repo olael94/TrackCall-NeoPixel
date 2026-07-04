@@ -51,22 +51,22 @@ Easiest path: open this repo in VS Code with the [Raspberry Pi Pico extension](h
 
 Manual build:
 
-\```bash
+```bash
 git clone https://github.com/olael94/TrackCall-NeoPixel.git
 cd TrackCall-NeoPixel
 mkdir build && cd build
 cmake ..
 make
-\```
+```
 
 To flash: hold **BOOTSEL** on the Tiny 2040 while plugging it into USB, then drag `build/TrackCall2.uf2` onto the drive that appears.
 
 ## Project Structure
 
-\```
+```
 TrackCall2.c              — state machine + GPIO + NeoPixel logic
 CMakeLists.txt             — build configuration
 pico_sdk_import.cmake      — pulls in the Pico SDK
 ws2812.pio                 — PIO program driving the NeoPixel
 TrackCall-Neopixel.png     — circuit schematic
-\```
+```
