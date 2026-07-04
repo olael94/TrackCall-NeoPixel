@@ -10,7 +10,7 @@ A track-call limiter for slot car racing, built on the RP2040-based Pimoroni Tin
 
 This is a variant of the original [TrackCall](https://github.com/olael94/TrackCall), replacing the three discrete LEDs with a single addressable WS2812 (NeoPixel) LED.
 
-##Demo
+## Demo
 
 https://github.com/user-attachments/assets/5174604c-2c72-4426-af35-1a0e1bb4af9d
 
