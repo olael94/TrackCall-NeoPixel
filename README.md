@@ -10,6 +10,10 @@ A track-call limiter for slot car racing, built on the RP2040-based Pimoroni Tin
 
 This is a variant of the original [TrackCall](https://github.com/olael94/TrackCall), replacing the three discrete LEDs with a single addressable WS2812 (NeoPixel) LED.
 
+##Demo
+
+https://github.com/user-attachments/assets/5174604c-2c72-4426-af35-1a0e1bb4af9d
+
 ## How It Works
 
 Pressing the **Track Call** button de-energizes the track for one second (so the player can put their car back on) and changes the NeoPixel's color to show how many calls have been used. Once the 3rd call is used, the track can no longer be de-energized — pressing the button again just flashes the NeoPixel cyan then purple to tell the player they're out of chances. The **Reset** button clears the call count back to zero for the next race/heat.
